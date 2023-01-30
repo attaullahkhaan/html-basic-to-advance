@@ -5,30 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media</title>
-    <style>
-        img {
-            width: 30%;
-            height: 300px;
-        }
-    </style>
 </head>
 <body>
-    <!-- Multimedia: Multimedia comes in many different formats. It can be almost anything you can hear or see, like images, music, sound, videos, records, films, animations, and more. -->
+    <!-- Multimedia -->
+    <!-- How to insert images, audios, and vedios in html document -->
 
-    <!--Common Image Formats
-    - There are many image formats available. e.g. (JPEG, PNG, GIF, TIFF, PSD, PDF, EPS, AI, INDD, RAW)
-    - The JPEG/JPG, PNG, and GIF formats are supported by HTML.
-    - Best website for PNG images is https://www.hiclipart.com/. -->
+    <!-- JPG Image-->
+    <img src="media/children.jpg" width="70%" alt="Children">
+    
+    <!-- PNG Image-->
+    <img src="media/image_01.png" width="70%" alt="Image 01">
+    
+    <!-- GIF Image-->
+    <img src="https://lukeroberts.tv/blog/wp-content/uploads/2019/05/gif1.gif" width="70%" alt="GIF Image"> <br> <br>
+    
+    <!-- How to create link from Image  -->
+    <a href="https://lukeroberts.tv/blog/wp-content/uploads/2019/05/gif1.gif" target="_blank">Click me I'll show you Image
+    </a> <br> <br>
 
-    <h1>Insert Images to Web Page</h1>
-    <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_960_720.jpg" alt="Italy Image">
-    
-    <img src="https://vertexsoftsmc.com/assets/img/screen/animated-screen-1.svg" alt="Italy Image">
-    
-    <img src="https://cdn.pixabay.com/animation/2022/08/02/14/40/14-40-53-72_512.gif" alt="Italy Image">
-    
-    
-    <h1>Insert Videos to Web Page</h1>
+    <!-- Audio  -->
+    <audio controls="controls" muted>
+        <source src="media/freedom.mp3" type="audio/ogg">
+    </audio> <br> <br>
+
+    <!-- Video -->
+    <video width="80%" controls autoplay muted>
+        <source src="media/bg.mp4" type="video/mp4">
+    </video>
+
+    <!-- How to Add YouTube Videos -->
+    <iframe width="80%" height="600px" src="https://www.youtube.com/embed/rflDMd5bkz4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 
 </body>
 </html>
